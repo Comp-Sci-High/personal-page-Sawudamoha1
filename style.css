@@ -22,14 +22,14 @@ h1 {
 }
 
 h2 {
-    color: #FF9900;
-    border-bottom: 2px dashed #FF9900;
+    color: #00fff2;
+    border-bottom: 2px dashed rgba(255, 255, 255, 0.8);
     padding-bottom: 5px;
 }
 
 .profile-pic {
     border-radius: 50%;
-    border: 5px solid #FFB800;
+    border: 5px solid #00fff2;
     width: 200px;
     height: 200px; 
     object-fit: cover;
@@ -68,6 +68,17 @@ ul {
     object-fit: cover;
 }
 
+.favorite-brand p {
+    color: #00fff2;
+}
+
+.favorite-social p {
+    color: red
+}
+
+.favorite-food p {
+    color:orchid
+}
 p {
     color: #333;
     line-height: 1.6;
